@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page using bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <div class="text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/5/53/20120127015123%21Rockstar_Games_Logo.svg/120px-Rockstar_Games_Logo.svg.png" class="rounded">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 mt-3">
+                    <img src="https://i.redd.it/iw76dtj99l271.jpg" class="img-fluid">
+                </div>
+                <div class="col-8 mt-5">
+                    <h2 class="mb-3">Synopsis</h2>
+                    <p>Amidst the decline of the Wild West at the turn of the 20th century, outlaw Arthur Morgan and his gang struggle to cope with the loss of their way of life.</p>
+                    <button type="button" class="btn btn-primary">Click here to buy</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card text-center mt-4">
+                        <div class="card-body bg-secondary text-white w-100">
+                            <p class="card-text">Below are some of the characters of RDR2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.l1feAljTdWHNK99PGW2rbwHaEK?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Micah Bell</h5>
+                            <p class="card-text">A career criminal and hitman. Wild and unpredictable but he lives for the action.</p>
+                            <button type="button" class="btn btn-primary">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://wallpapercave.com/wp/wp3846497.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hosea Matthews</h5>
+                            <p class="card-text">A master con artist, gentleman and thief, Hosea has been Dutch's closest friend and right‐hand man for over 20 years. Intelligent and quick‐witted, he can talk his way into, or out of, just about anything.</p>
+                            <button type="button" class="btn btn-primary">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://www.enwallpaper.com/wp-content/uploads/2021/08/red-dead-redemption-2-wallpaper-v-2-by-3demerzel-ddhljyu-fullview.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Arthur Morgan</h5>
+                            <p class="card-text">You know, all that ever mattered to me was loyalty. It was all I knew. It was all I ever believed in.</p>
+                            <button type="button" class="btn btn-primary">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
